@@ -1,0 +1,75 @@
+{
+  "description": "DESI DR1 BAO distance measurements (arXiv:2404.03002)",
+  "reference": "DESI 2024 VI: Cosmological Constraints from BAO",
+  "columns": {
+    "z_eff": "effective redshift",
+    "tracer": "galaxy tracer type",
+    "DM_over_rd": "transverse comoving distance / sound horizon",
+    "DH_over_rd": "Hubble distance / sound horizon (= c / (H(z) * rd))",
+    "DV_over_rd": "volume-averaged distance / sound horizon",
+    "sigma_DM": "1\u03c3 error on DM/rd",
+    "sigma_DH": "1\u03c3 error on DH/rd",
+    "sigma_DV": "1\u03c3 error on DV/rd"
+  },
+  "measurements": [
+    {
+      "z_eff": 0.295,
+      "tracer": "BGS",
+      "DV_over_rd": 7.93,
+      "sigma_DV": 0.15
+    },
+    {
+      "z_eff": 0.51,
+      "tracer": "LRG1",
+      "DM_over_rd": 13.62,
+      "sigma_DM": 0.25,
+      "DH_over_rd": 20.98,
+      "sigma_DH": 0.61
+    },
+    {
+      "z_eff": 0.706,
+      "tracer": "LRG2",
+      "DM_over_rd": 16.85,
+      "sigma_DM": 0.32,
+      "DH_over_rd": 20.08,
+      "sigma_DH": 0.6
+    },
+    {
+      "z_eff": 0.93,
+      "tracer": "LRG3+ELG1",
+      "DM_over_rd": 21.71,
+      "sigma_DM": 0.28,
+      "DH_over_rd": 17.88,
+      "sigma_DH": 0.35
+    },
+    {
+      "z_eff": 1.317,
+      "tracer": "ELG2",
+      "DM_over_rd": 27.79,
+      "sigma_DM": 0.69,
+      "DH_over_rd": 13.82,
+      "sigma_DH": 0.42
+    },
+    {
+      "z_eff": 1.491,
+      "tracer": "QSO",
+      "DV_over_rd": 26.07,
+      "sigma_DV": 0.67
+    },
+    {
+      "z_eff": 2.33,
+      "tracer": "Lya",
+      "DM_over_rd": 39.71,
+      "sigma_DM": 0.94,
+      "DH_over_rd": 8.52,
+      "sigma_DH": 0.17
+    }
+  ],
+  "correlations": {
+    "LRG1": -0.42,
+    "LRG2": -0.37,
+    "LRG3+ELG1": -0.44,
+    "ELG2": -0.39,
+    "Lya": -0.45
+  }
+}

@@ -1,0 +1,247 @@
+{
+  "phi": 1.618033988749895,
+  "ln_phi": 0.48121182505960347,
+  "k_phi": 2.0780869212350273,
+  "harmonics_tested": [
+    2.0780869212350273,
+    4.1561738424700545,
+    6.234260763705082,
+    8.312347684940109
+  ],
+  "n_bootstrap": 300,
+  "prefer_full": true,
+  "download_status": {
+    "TT_full": true,
+    "TE_full": true,
+    "EE_full": true,
+    "theory": true
+  },
+  "theory_source": "camb",
+  "spectra": {
+    "TT": {
+      "data_source": "planck_full",
+      "diagnostics": {
+        "n_points": 2507,
+        "ell_range": [
+          2.0,
+          2508.0
+        ],
+        "residual_rms": 178.36566383413034,
+        "residual_to_signal_ratio": 0.031131578620054275
+      },
+      "dsi": {
+        "sig_levels": {
+          "1sigma": 0.004937637421213233,
+          "2sigma": 0.006681388572952095,
+          "3sigma": 0.00781240842568844,
+          "4sigma": 0.007891637070679556,
+          "5sigma": 0.00789351187820608
+        },
+        "harmonics": [
+          {
+            "m": 1,
+            "k_target": 2.0780869212350273,
+            "k_found": 1.7819704926231557,
+            "power": 0.00045707814025926,
+            "p_value": 1.0,
+            "sigma": "<1\u03c3",
+            "deviation_pct": 14.249472704245052
+          },
+          {
+            "m": 2,
+            "k_target": 4.1561738424700545,
+            "k_found": 4.25018754688672,
+            "power": 0.00043347992548136625,
+            "p_value": 1.0,
+            "sigma": "<1\u03c3",
+            "deviation_pct": 2.2620253141478925
+          },
+          {
+            "m": 3,
+            "k_target": 6.234260763705082,
+            "k_found": 6.10632658164541,
+            "power": 0.0007761304184418437,
+            "p_value": 1.0,
+            "sigma": "<1\u03c3",
+            "deviation_pct": 2.0521147078814117
+          },
+          {
+            "m": 4,
+            "k_target": 8.312347684940109,
+            "k_found": 8.609377344336082,
+            "power": 0.0011707480348178028,
+            "p_value": 1.0,
+            "sigma": "<1\u03c3",
+            "deviation_pct": 3.573354612369211
+          }
+        ],
+        "global_max_freq": 5.145911477869467,
+        "global_max_power": 0.0039051655747571238,
+        "n_points": 2507,
+        "ln_ell_span": 7.134093721192866
+      }
+    },
+    "TE": {
+      "data_source": "planck_full",
+      "diagnostics": {
+        "n_points": 1995,
+        "ell_range": [
+          2.0,
+          1996.0
+        ],
+        "residual_rms": 19.8928190480472,
+        "residual_to_signal_ratio": 0.14834275525712748
+      },
+      "dsi": {
+        "sig_levels": {
+          "1sigma": 0.005835242296449021,
+          "2sigma": 0.008232455221640539,
+          "3sigma": 0.010467008881254567,
+          "4sigma": 0.01101362107047687,
+          "5sigma": 0.011026555693384508
+        },
+        "harmonics": [
+          {
+            "m": 1,
+            "k_target": 2.0780869212350273,
+            "k_found": 2.36419104776194,
+            "power": 0.0016728215510331314,
+            "p_value": 1.0,
+            "sigma": "<1\u03c3",
+            "deviation_pct": 13.767668888309947
+          },
+          {
+            "m": 2,
+            "k_target": 4.1561738424700545,
+            "k_found": 4.454213553388346,
+            "power": 0.001224008828900131,
+            "p_value": 1.0,
+            "sigma": "<1\u03c3",
+            "deviation_pct": 7.171011661561385
+          },
+          {
+            "m": 3,
+            "k_target": 6.234260763705082,
+            "k_found": 6.4646161540385085,
+            "power": 0.0017078299572797393,
+            "p_value": 1.0,
+            "sigma": "<1\u03c3",
+            "deviation_pct": 3.6949912598221806
+          },
+          {
+            "m": 4,
+            "k_target": 8.312347684940109,
+            "k_found": 8.136634158539634,
+            "power": 0.0012241437573788318,
+            "p_value": 1.0,
+            "sigma": "<1\u03c3",
+            "deviation_pct": 2.1138856681707874
+          }
+        ],
+        "global_max_freq": 5.822680670167541,
+        "global_max_power": 0.002850139085836114,
+        "n_points": 1995,
+        "ln_ell_span": 6.905753276311464
+      }
+    },
+    "EE": {
+      "data_source": "planck_full",
+      "diagnostics": {
+        "n_points": 1995,
+        "ell_range": [
+          2.0,
+          1996.0
+        ],
+        "residual_rms": 38.00999741104487,
+        "residual_to_signal_ratio": 0.8960959428778463
+      },
+      "dsi": {
+        "sig_levels": {
+          "1sigma": 0.006074449059064835,
+          "2sigma": 0.008020350300424623,
+          "3sigma": 0.009649768596843734,
+          "4sigma": 0.010468321506654924,
+          "5sigma": 0.010487691131824498
+        },
+        "harmonics": [
+          {
+            "m": 1,
+            "k_target": 2.0780869212350273,
+            "k_found": 2.3741435358839706,
+            "power": 0.000887070426147994,
+            "p_value": 1.0,
+            "sigma": "<1\u03c3",
+            "deviation_pct": 14.24659438561858
+          },
+          {
+            "m": 2,
+            "k_target": 4.1561738424700545,
+            "k_found": 4.260140035008751,
+            "power": 0.0014287999561185323,
+            "p_value": 1.0,
+            "sigma": "<1\u03c3",
+            "deviation_pct": 2.5014880628022205
+          },
+          {
+            "m": 3,
+            "k_target": 6.234260763705082,
+            "k_found": 6.529307326831707,
+            "power": 0.0018519109990040924,
+            "p_value": 1.0,
+            "sigma": "<1\u03c3",
+            "deviation_pct": 4.732663170657551
+          },
+          {
+            "m": 4,
+            "k_target": 8.312347684940109,
+            "k_found": 8.435208802200549,
+            "power": 0.0030211781323827864,
+            "p_value": 0.9966666666666667,
+            "sigma": "<1\u03c3",
+            "deviation_pct": 1.4780555616439561
+          }
+        ],
+        "global_max_freq": 17.98462115528882,
+        "global_max_power": 0.0032267190739504016,
+        "n_points": 1995,
+        "ln_ell_span": 6.905753276311464
+      }
+    }
+  },
+  "cross_spectrum": {
+    "detections": {
+      "TT": {
+        "fundamental_sigma": "<1\u03c3",
+        "fundamental_k": 1.7819704926231557,
+        "n_harmonics_ge_2sigma": 0,
+        "harmonics_ge_2sigma": []
+      },
+      "TE": {
+        "fundamental_sigma": "<1\u03c3",
+        "fundamental_k": 2.36419104776194,
+        "n_harmonics_ge_2sigma": 0,
+        "harmonics_ge_2sigma": []
+      },
+      "EE": {
+        "fundamental_sigma": "<1\u03c3",
+        "fundamental_k": 2.3741435358839706,
+        "n_harmonics_ge_2sigma": 0,
+        "harmonics_ge_2sigma": []
+      }
+    },
+    "pairwise_periodogram_correlation": {
+      "TT_TE": {
+        "periodogram_corr": 0.1524041295216049
+      },
+      "TT_EE": {
+        "periodogram_corr": 0.0006851283889151277
+      },
+      "TE_EE": {
+        "periodogram_corr": -0.010903653735474313
+      }
+    },
+    "spectra_with_fundamental_ge_2sigma": [],
+    "harmonic_support_ge_2sigma": false,
+    "verdict": "no significant DSI evidence"
+  }
+}

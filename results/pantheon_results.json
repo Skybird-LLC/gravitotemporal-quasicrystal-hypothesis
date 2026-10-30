@@ -1,0 +1,94 @@
+{
+  "dataset": "Pantheon+ Hubble-flow (IS_CALIBRATOR=0, zHD>0.01)",
+  "n_data": 1580,
+  "covariance": "full STAT+SYS (1580x1580)",
+  "models": {
+    "ModelA_LambdaCDM": {
+      "description": "Flat LCDM: H(z) = H0*sqrt(Om*(1+z)^3 + OL)",
+      "k_params": 2,
+      "ndof": 1577,
+      "params_best": {
+        "H0": 69.810,
+        "Om": 0.332
+      },
+      "M_best_marginalized": -0.104,
+      "chi2": 1387.099,
+      "chi2_per_dof": 0.880,
+      "AIC": 1391.099,
+      "BIC": 1401.829
+    },
+    "ModelB_NaivePhiN": {
+      "description": "Naive phi^n stiff fluid: H(z) = H0*(1+z)^3",
+      "k_params": 1,
+      "ndof": 1578,
+      "params_best": {
+        "H0": 70.0
+      },
+      "M_best_marginalized": 0.353,
+      "chi2": 6375.415,
+      "chi2_per_dof": 4.040,
+      "AIC": 6377.415,
+      "BIC": 6382.780,
+      "verdict": "RULED OUT"
+    },
+    "ModelC_Quasiperiodic": {
+      "description": "phi-periodic dark energy: w_de(z) = -1 + eps*cos(2pi*ln(1+z)/ln(phi))",
+      "k_params": 3,
+      "ndof": 1576,
+      "params_best_optimizer": {
+        "H0": 58.311,
+        "Om": 0.334,
+        "eps": 0.052
+      },
+      "params_mcmc": {
+        "H0": {
+          "median": 74.92,
+          "minus_1sigma": 16.97,
+          "plus_1sigma": 17.12,
+          "note": "unconstrained (flat posterior, expected when marginalizing over M)"
+        },
+        "Om": {
+          "median": 0.335,
+          "minus_1sigma": 0.019,
+          "plus_1sigma": 0.019
+        },
+        "eps": {
+          "median": 0.052,
+          "minus_1sigma": 0.136,
+          "plus_1sigma": 0.139,
+          "significance_sigma": 0.38,
+          "P_eps_gt_0": 0.647,
+          "upper_bound_95pct": 0.33
+        }
+      },
+      "M_best_marginalized": -0.492,
+      "chi2": 1386.953,
+      "chi2_per_dof": 0.880,
+      "AIC": 1392.953,
+      "BIC": 1409.049,
+      "mcmc_diagnostics": {
+        "Gelman_Rubin_Rhat": {
+          "H0": 1.0006,
+          "Om": 1.0005,
+          "eps": 1.0006
+        },
+        "ESS": {
+          "H0": 1256811,
+          "Om": 1264732,
+          "eps": 1280000
+        },
+        "n_walkers": 32,
+        "n_steps": 50000,
+        "n_burn": 10000
+      },
+      "verdict": "SURVIVED (not detected); eps consistent with 0 at 0.4 sigma"
+    }
+  },
+  "model_comparison": {
+    "delta_chi2_A_vs_C": 0.146,
+    "delta_AIC_A_vs_C": -1.854,
+    "delta_BIC_A_vs_C": -7.220,
+    "preferred_by_BIC": "ModelA_LambdaCDM",
+    "note": "BIC penalizes Model C for extra parameter; AIC slightly favors C but not significantly"
+  }
+}

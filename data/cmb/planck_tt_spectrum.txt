@@ -1,0 +1,2 @@
+# Placeholder for Planck 2018 TT spectrum
+# Expected columns: ell, Dl_microK2, err_minus, err_plus

@@ -1,0 +1,35 @@
+{
+  "target_frequency_k_phi": 2.0780869212350273,
+  "phi_peak_frequency": 1.7797279727972797,
+  "phi_peak_power": 0.04110909036270307,
+  "phi_significance": "<1\u03c3",
+  "phi_p_value": 1.0,
+  "global_max_frequency": 5.075497549754974,
+  "global_max_power": 0.15949352228387828,
+  "significance_thresholds": {
+    "1sigma": 0.1376285332984928,
+    "2sigma": 0.18300204784984056,
+    "3sigma": 0.2339681756129052,
+    "4sigma": 0.30122915133408307,
+    "5sigma": 0.3126325118091656
+  },
+  "n_multipoles": 83,
+  "ell_range": [
+    47.711224,
+    2499.024
+  ],
+  "data_source": "planck_binned",
+  "theory_source": "CAMB",
+  "n_bootstrap": 10000,
+  "lcdm_params": {
+    "H0": 67.36,
+    "ombh2": 0.02237,
+    "omch2": 0.12,
+    "tau": 0.0544,
+    "ns": 0.9649,
+    "ln10As": 3.044,
+    "As": 2.0989031673191437e-09,
+    "Omega_m": 0.3153,
+    "Omega_L": 0.6847
+  }
+}

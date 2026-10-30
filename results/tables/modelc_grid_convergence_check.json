@@ -1,0 +1,18 @@
+{
+  "theta_source": "model_comparison",
+  "theta": {
+    "H0": 58.31106871391553,
+    "Om": 0.3335684145035894,
+    "eps": 0.05244088993251305
+  },
+  "loglike_grid_low": {
+    "n_grid": 1200,
+    "value": -693.475864717505
+  },
+  "loglike_grid_high": {
+    "n_grid": 2400,
+    "value": -693.4755690893368
+  },
+  "delta_loglike_high_minus_low": 0.00029562816826000926,
+  "abs_delta_loglike": 0.00029562816826000926
+}

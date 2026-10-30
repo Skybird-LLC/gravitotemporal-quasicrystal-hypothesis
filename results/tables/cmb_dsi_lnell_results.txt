@@ -1,0 +1,13 @@
+CMB DSI Log-Periodic Test Results
+Target period: ln(phi) = 0.481212
+ell range: 30-2500
+Null realizations: 10000
+Injection test: False
+
+TT:
+  power_at_phi: 0.0003862370730042711
+  p_value: 0.9628
+  sigma: -1.7841456568012686
+  peak_period: 0.19499161368334827
+  peak_power: 0.0037970645413222
+

@@ -1,0 +1,2 @@
+model,dataset,n_data,k_params,ndof,H0_best,Om_best,M_best_marginalized,chi2,chi2_per_dof,AIC,BIC,optimizer_success,optimizer_message
+LambdaCDM,"Pantheon+ Hubble-flow (IS_CALIBRATOR=0, zHD>0.01)",1580,2,1577,69.81021177768707,0.33162675619125376,-0.10430592285267515,1387.0988142811184,0.8795807319474435,1391.0988142811184,1401.8291745331603,True,Optimization terminated successfully.

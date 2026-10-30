@@ -1,0 +1,99 @@
+{
+  "phi": 1.618033988749895,
+  "ln_phi": 0.48121182505960347,
+  "k_phi": 2.0780869212350273,
+  "harmonics_tested": [
+    2.0780869212350273,
+    4.1561738424700545,
+    6.234260763705082,
+    8.312347684940109
+  ],
+  "n_bootstrap": 10000,
+  "prefer_full": true,
+  "download_status": {
+    "TT_full": true,
+    "TE_full": true,
+    "EE_full": true,
+    "theory": true
+  },
+  "theory_source": "camb",
+  "spectra": {
+    "TT": {
+      "data_source": "planck_full",
+      "diagnostics": {
+        "n_points": 2507,
+        "ell_range": [
+          2.0,
+          2508.0
+        ],
+        "residual_rms": 178.36566383413034,
+        "residual_to_signal_ratio": 0.031131578620054275
+      },
+      "dsi": {
+        "sig_levels": {
+          "1sigma": 0.004800913143541714,
+          "2sigma": 0.006566722857000064,
+          "3sigma": 0.008947625751549476,
+          "4sigma": 0.011814206512367342,
+          "5sigma": 0.011849721350144298
+        },
+        "harmonics": [
+          {
+            "m": 1,
+            "k_target": 2.0780869212350273,
+            "k_found": 1.7819704926231557,
+            "power": 0.00045707814025926,
+            "p_value": 1.0,
+            "sigma": "<1\u03c3",
+            "deviation_pct": 14.249472704245052
+          },
+          {
+            "m": 2,
+            "k_target": 4.1561738424700545,
+            "k_found": 4.25018754688672,
+            "power": 0.00043347992548136625,
+            "p_value": 1.0,
+            "sigma": "<1\u03c3",
+            "deviation_pct": 2.2620253141478925
+          },
+          {
+            "m": 3,
+            "k_target": 6.234260763705082,
+            "k_found": 6.10632658164541,
+            "power": 0.0007761304184418437,
+            "p_value": 1.0,
+            "sigma": "<1\u03c3",
+            "deviation_pct": 2.0521147078814117
+          },
+          {
+            "m": 4,
+            "k_target": 8.312347684940109,
+            "k_found": 8.609377344336082,
+            "power": 0.0011707480348178028,
+            "p_value": 1.0,
+            "sigma": "<1\u03c3",
+            "deviation_pct": 3.573354612369211
+          }
+        ],
+        "global_max_freq": 5.145911477869467,
+        "global_max_power": 0.0039051655747571238,
+        "n_points": 2507,
+        "ln_ell_span": 7.134093721192866
+      }
+    }
+  },
+  "cross_spectrum": {
+    "detections": {
+      "TT": {
+        "fundamental_sigma": "<1\u03c3",
+        "fundamental_k": 1.7819704926231557,
+        "n_harmonics_ge_2sigma": 0,
+        "harmonics_ge_2sigma": []
+      }
+    },
+    "pairwise_periodogram_correlation": {},
+    "spectra_with_fundamental_ge_2sigma": [],
+    "harmonic_support_ge_2sigma": false,
+    "verdict": "no significant DSI evidence"
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "records": [
+    {
+      "model": "ModelA_LambdaCDM",
+      "n_data": 1580,
+      "k_params": 2,
+      "ndof": 1577,
+      "params_best": [
+        69.81021177768707,
+        0.33162675619125376
+      ],
+      "M_best_marginalized": -0.10430592285267515,
+      "chi2": 1387.0988142811184,
+      "chi2_per_dof": 0.8795807319474435,
+      "AIC": 1391.0988142811184,
+      "BIC": 1401.8291745331603,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully.",
+      "delta_chi2_vs_best": 0.1458463288809071
+    },
+    {
+      "model": "ModelB_NaivePhiN",
+      "n_data": 1580,
+      "k_params": 1,
+      "ndof": 1578,
+      "params_best": [
+        70.0
+      ],
+      "M_best_marginalized": 0.3527678621726193,
+      "chi2": 6375.414802138386,
+      "chi2_per_dof": 4.040186820113046,
+      "AIC": 6377.414802138386,
+      "BIC": 6382.779982264407,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully.",
+      "delta_chi2_vs_best": 4988.461834186149
+    },
+    {
+      "model": "ModelC_Quasiperiodic",
+      "n_data": 1580,
+      "k_params": 3,
+      "ndof": 1576,
+      "params_best": [
+        58.31106871391553,
+        0.3335684145035894,
+        0.05244088993251305
+      ],
+      "M_best_marginalized": -0.49152057439884816,
+      "chi2": 1386.9529679522375,
+      "chi2_per_dof": 0.8800462994620796,
+      "AIC": 1392.9529679522375,
+      "BIC": 1409.0485083303006,
+      "optimizer_success": true,
+      "optimizer_message": "Optimization terminated successfully.",
+      "delta_chi2_vs_best": 0.0
+    }
+  ]
+}
